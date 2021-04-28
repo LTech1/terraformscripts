@@ -4,7 +4,7 @@ resource "aws_instance" "server1" {
     key_name  =  "key"
     tags  = {
         Name = "dbserver"
-        Environment = "dev"
+        Environment = "development"
         Team = "Developers"
     }
   
