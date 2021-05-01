@@ -49,3 +49,5 @@ output "serverIP" {
 output "serverpublicIP" {
   value = aws_instance.server1.public_ip
 }
+
+
